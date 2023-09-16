@@ -1,0 +1,54 @@
+* {
+  background-color: rgb(232, 236, 240);
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+} /* App component styles */
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.game-board {
+  flex: 1;
+  margin: 20px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.player-info {
+  margin: 20px;
+  font-size: 24px;
+}
+
+/* Board component styles */
+.board-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  font-size: 24px;
+  border: 2px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Player component styles */
+.player {
+  font-size: 20px;
+  font-weight: bold;
+}
